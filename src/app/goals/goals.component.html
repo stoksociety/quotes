@@ -9,49 +9,34 @@
   <link rel="stylesheet" href="/src/app/app.component.css">
 </head>
 <body>
-
-
- <div class="container-fluid">
+<div class="container-fluid">
   <div class="body">
      <nav ><h1><strong>QUOTES THAT MAKE US!</strong></h1></nav>
 
   <p> life's intresting with quotes</p>
-
-
- <form>
+     <form>
    <div class="col-md-6">
-
-
-      <input type="text" id="owner" placeholder="author">
+  <input type="text" id="owner" placeholder="author">
 
   </div>
-
-
-   <div class="col-md-6">
-
-  <input type="text" class="quote" id="quotee"  placeholder="enter quote">
+ <div class="col-md-6">
+<input type="text" class="quote" id="quotee"  placeholder="enter quote">
   </div>
 <div class="row">
-
-  <div class="col-md-12">
-
-      <input type="text" id="submittedby" placeholder="submitted by">
+ <div class="col-md-12">
+   <input type="text" id="submittedby" placeholder="submitted by">
   </div>
 </div>
+  <button class="upvote" >upvote</button>
+  <input type="number" id="input1" value="0"[name]="">
 
-    <button class="upvote" >upvote</button>
-    <input type="number" id="input1" value="0"[name]="">
+<button Class="downvote">downvote</button>
+<input type="number" id="input2" value="0"[name]="">
 
-
-    <button Class="downvote">downvote</button>
-    <input type="number" id="input2" value="0"[name]="">
-
-
-   <div class="submit">
+<div class="submit">
      <button bg-success>submit quote</button>
    </div>
-  </form>
-
+ </form>
 
 </div>
 
