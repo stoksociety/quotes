@@ -7,6 +7,7 @@ import { GoalsComponent } from './goals/goals.component';
 import { FormComponentComponent } from './form-component/form-component.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     GoalsComponent,
     FormComponentComponent,
     QuoteComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    QuoteVoteComponent
+
   ],
   imports: [
     BrowserModule,
